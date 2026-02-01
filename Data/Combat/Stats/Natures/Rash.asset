@@ -9,13 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c8a6a7611f40614ba85b15fa4f4dbb6, type: 3}
-  m_Name: Burned
-  m_EditorClassIdentifier: Assembly-CSharp::DamageOverTimeStatusData
-  id: burned
-  displayName: Burned
+  m_Script: {fileID: 11500000, guid: 5b7da26bdee1b1240819f02d34c14ba5, type: 3}
+  m_Name: Rash
+  m_EditorClassIdentifier: Assembly-CSharp::NatureData
+  id: 
+  displayName: 
   description: 
-  isPermanet: 1
-  maxDuration: 0
-  stackRule: 0
-  damagePercentPerTurn: 0.0625
+  increasedStat: {fileID: 0}
+  decreasedStat: {fileID: 0}

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Scriptable Objects/Type")]
+[CreateAssetMenu(menuName = "Pokémon Forge/Types/Type")]
 public class TypeData : ScriptableObject
 {
     public string id;

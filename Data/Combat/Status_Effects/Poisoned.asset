@@ -15,7 +15,7 @@ MonoBehaviour:
   id: poisoned
   displayName: Poisoned
   description: 
-  isPermanet: 0
+  isPermanet: 1
   maxDuration: 0
   stackRule: 0
-  damagePercentPerTurn: 0
+  damagePercentPerTurn: 0.125
