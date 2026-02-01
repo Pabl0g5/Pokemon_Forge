@@ -9,13 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3457804661a287f4187c990782e7b1f5, type: 3}
-  m_Name: Burned
-  m_EditorClassIdentifier: Assembly-CSharp::SimpleStatusEffectData
+  m_Script: {fileID: 11500000, guid: 2a735644cfa5cc844817968d3d6eb0d5, type: 3}
+  m_Name: Friendship
+  m_EditorClassIdentifier: Assembly-CSharp::StatsData
   id: 
   displayName: 
-  description: 
-  isPermanet: 0
-  maxDuration: 0
-  stackRule: 0
-  damagePercentPerTurn: 0
+  category: 0
+  canBeModifiedInBattle: 1
+  isHidden: 0

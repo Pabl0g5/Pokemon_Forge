@@ -7,3 +7,9 @@ public enum StatusStackRule
     Ignore,
     Stack
 }
+public enum StatModifierType
+{
+    Flat,
+    Percent
+}
+

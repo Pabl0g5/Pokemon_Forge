@@ -1,5 +1,4 @@
-using System;
-using Unity.VisualScripting;
+ using System.Collections.Generic;
 using UnityEngine;
 
 public abstract class StatusEffectData : ScriptableObject
@@ -13,5 +12,13 @@ public abstract class StatusEffectData : ScriptableObject
     public bool isPermanet;
     public int maxDuration;
     public StatusStackRule stackRule;
+
+    [Header("DamageOverTime")]
+    public float damagePercentPerTurn;
+
+    [Header("Stat Modifier")]
+    public StatsData stat;
+    public StatModifierType modifier;
+    public float value;
 }
 

@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3457804661a287f4187c990782e7b1f5, type: 3}
-  m_Name: Poisoned
-  m_EditorClassIdentifier: Assembly-CSharp::SimpleStatusEffectData
+  m_Script: {fileID: 11500000, guid: feeaf064fcb627845857d21ecb6f5ae4, type: 3}
+  m_Name: Badly_Poisoned
+  m_EditorClassIdentifier: Assembly-CSharp::ProgressiveDamageStatusData
   id: 
   displayName: 
   description: 
@@ -22,3 +22,5 @@ MonoBehaviour:
   stat: {fileID: 0}
   modifier: 0
   value: 0
+  baseDamagePercentage: 0
+  resetsOnSwitch: 1
